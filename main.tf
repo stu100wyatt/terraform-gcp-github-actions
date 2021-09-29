@@ -8,7 +8,6 @@ resource "google_storage_bucket" "bucket_sw_1" {
 resource "google_storage_bucket" "gcs_bucket" {
   name = "sw-bucket-random-001125"
   labels = {
-    yor_trace = "ca365a7c-c7f6-4de0-8a2b-c2c087443518"
   }
 }
 
