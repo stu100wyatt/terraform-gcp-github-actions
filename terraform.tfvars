@@ -1,2 +1,2 @@
-project_id = "terraform-learning-293205"
+project_id = "kubernetes-247908"
 region     = "europe-west2"
