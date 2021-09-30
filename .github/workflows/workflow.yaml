@@ -20,7 +20,9 @@ jobs:
     # Checkout the repository to the GitHub Actions runner
     - name: Checkout
       uses: actions/checkout@v2
-      
+      with:
+          fetch-depth: 0
+          ref: ${{ github.head_ref }}
     - name: Run yor action
       uses: bridgecrewio/yor-action@main
 
