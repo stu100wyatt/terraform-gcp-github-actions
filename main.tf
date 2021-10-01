@@ -1,5 +1,5 @@
-resource "google_storage_bucket" "sw_new_gcp_bucket1" {
-  name     = "sw-bucket-random-iac-v2"
+resource "google_storage_bucket "GCS_sw_1 " {
+  name     = "gcs-sw-eu-v1"
   location = "EU"
   labels = {
     git_commit           = "d872fde1291a5386482a5ba0b70ae48ef250fff6"
@@ -13,8 +13,8 @@ resource "google_storage_bucket" "sw_new_gcp_bucket1" {
   }
 }
 
-resource "google_storage_bucket" "sw_new_gcp_bucket2" {
-  name     = "sw-bucket-random-001125-v3"
+resource "google_storage_bucket" "GSC_sw_2" {
+  name     = "gcs-sw-eu-internal"
   location = "EU"
   labels = {
     git_commit           = "d872fde1291a5386482a5ba0b70ae48ef250fff6"
