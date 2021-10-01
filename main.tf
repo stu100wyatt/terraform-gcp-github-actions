@@ -1,4 +1,4 @@
-resource "google_storage_bucket "GCS_sw_1" {
+resource "google_storage_bucket" "GCS_sw_1" {
   name     = "gcs-sw-eu-v1"
   location = "EU"
   labels = {
