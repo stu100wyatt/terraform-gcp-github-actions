@@ -1,5 +1,6 @@
+
 resource "google_storage_bucket" "GCS_sw_1" {
-  name     = "gcs-sw-eu-v1"
+  name     = "gcs-sw-eu-v12"
   location = "EU"
   labels = {
     git_commit           = "33fa0f206f24ca615b4120d49a02acb23bad3229"
