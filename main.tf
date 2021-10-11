@@ -30,4 +30,17 @@ resource "google_storage_bucket" "GSC_sw_2" {
   }
 }
 
-
+resource "google_storage_bucket" "GSC_sw_3" {
+  name     = "gcs-sw-eu-internal"
+  location = "EU"
+  labels = {
+    git_commit           = "a0d952cb53636337210f1e9deaae7a3e77c64843"
+    git_file             = "main_tf"
+    git_last_modified_at = "2021-10-01-08-42-27"
+    git_last_modified_by = "swyatt"
+    git_modifiers        = "swyatt"
+    git_org              = "stu100wyatt"
+    git_repo             = "terraform-gcp-github-actions"
+    yor_trace            = "b4d06552-4a0d-43a7-a7ae-f65fd90bbcad"
+  }
+}
