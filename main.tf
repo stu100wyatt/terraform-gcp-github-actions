@@ -43,4 +43,5 @@ resource "google_storage_bucket" "GSC_sw_3" {
     git_repo             = "terraform-gcp-github-actions"
     yor_trace            = "b4d06552-4a0d-43a7-a7ae-f65fd90bbcad"
   }
+  uniform_bucket_level_access = true
 }
