@@ -13,7 +13,6 @@ resource "google_storage_bucket" "GCS_sw_1" {
     git_repo             = "terraform-gcp-github-actions"
     yor_trace            = "d422195c-86a7-49c8-b2ce-7b6aba0f545e"
   }
-  uniform_bucket_level_access = true
 }
 
 resource "google_storage_bucket" "GSC_sw_2" {
@@ -29,7 +28,6 @@ resource "google_storage_bucket" "GSC_sw_2" {
     git_repo             = "terraform-gcp-github-actions"
     yor_trace            = "b4d06552-4a0d-43a7-a7ae-f65fd90bbcad"
   }
-  uniform_bucket_level_access = true
 }
 
 resource "google_storage_bucket" "GSC_sw_3" {
@@ -45,4 +43,5 @@ resource "google_storage_bucket" "GSC_sw_3" {
     git_repo             = "terraform-gcp-github-actions"
     yor_trace            = "b4d06552-4a0d-43a7-a7ae-f65fd90bbcad"
   }
+  uniform_bucket_level_access = true
 }
