@@ -24,7 +24,7 @@ resource "google_storage_bucket" "GSC_sw_v2" {
     git_file             = "main_tf"
     git_last_modified_at = "2021-11-11-10-45-23"
     git_last_modified_by = "swyatt"
-    git_modifiers        = "52220278stu100wyatt__swyatt"
+    git_modifiers        = "swyatt"
     git_org              = "stu100wyatt"
     git_repo             = "terraform-gcp-github-actions"
     yor_trace            = "6b7f72ba-608a-45f6-a18c-1dc08886a25d"
