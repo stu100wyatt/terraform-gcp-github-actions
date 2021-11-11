@@ -1,7 +1,7 @@
 
 
-resource "google_storage_bucket" "GCS_sw_v1" {
-  name     = "gcs-sw-eu-v123"
+resource "google_storage_bucket" "gcs-new-bucket-v1" {
+  name     = "gcs-new-bucket-v1"
   location = "EU"
   labels = {
     git_commit           = "cc87c2b637c368d6a39349b890f804b95b5be8f0"
@@ -16,8 +16,8 @@ resource "google_storage_bucket" "GCS_sw_v1" {
   uniform_bucket_level_access = true
 }
 
-resource "google_storage_bucket" "GSC_sw_v2" {
-  name     = "gcs-sw-eu-internal-v1"
+resource "google_storage_bucket" "gcs-new-bucket-v2" {
+  name     = "gcs-new-bucket-v2"
   location = "EU"
   labels = {
     git_commit           = "abfac1011b302a12144b0e2791d13e7b6f5abfc2"
@@ -30,8 +30,8 @@ resource "google_storage_bucket" "GSC_sw_v2" {
     yor_trace            = "6b7f72ba-608a-45f6-a18c-1dc08886a25d"
   }
 }
-resource "google_storage_bucket" "GSC_sw_v3" {
-  name     = "gcs-sw-eu-internal-v2"
+resource "google_storage_bucket" "gcs-new-bucket-v3" {
+  name     = "gcs-new-bucket-v3"
   location = "EU"
   labels = {
 
