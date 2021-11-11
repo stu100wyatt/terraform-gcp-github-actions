@@ -19,6 +19,7 @@ resource "google_storage_bucket" "GSC_sw_v3" {
   name     = "gcs-sw-eu-internal-v2"
   location = "EU"
   labels = {
+
   }
   uniform_bucket_level_access = true
 }
