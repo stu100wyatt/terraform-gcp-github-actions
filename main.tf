@@ -1,7 +1,7 @@
 
 
 resource "google_storage_bucket" "GCS_sw_v1" {
-  name     = "gcs-sw-eu-v12"
+  name     = "gcs-sw-eu-v123"
   location = "EU"
   labels = {
   }
