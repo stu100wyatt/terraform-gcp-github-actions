@@ -13,7 +13,7 @@ resource "google_storage_bucket" "GSC_sw_v2" {
   location = "EU"
   labels = {
 }
-
+}
 resource "google_storage_bucket" "GSC_sw_v3" {
   name     = "gcs-sw-eu-internal-v2"
   location = "EU"
