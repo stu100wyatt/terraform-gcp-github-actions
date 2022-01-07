@@ -25,6 +25,9 @@ resource "google_container_cluster" "workload_cluster" {
 }
 
 resource google_container_node_pool "custom_node_pool" {
+   management {
+     auto_repair = true
+   }
   cluster  = google_container_cluster.workload_cluster.name
   location = var.region
 
