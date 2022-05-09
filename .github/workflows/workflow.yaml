@@ -25,7 +25,14 @@ jobs:
           ref: ${{ github.head_ref }}
     - name: Run yor action
       uses: bridgecrewio/yor-action@main
-
+    
+    - name: Run Bridgecrew 
+      id: Bridgecrew
+      uses: bridgecrewio/bridgecrew-action@master 
+      with:
+        api-key: ${{ secrets.BC_API_KEY }}
+        soft_fail: true
+      
     # Install the latest version of Terraform CLI and configure the Terraform CLI configuration file with a Terraform Cloud user API token
     - name: Setup Terraform
       uses: hashicorp/setup-terraform@v1
