@@ -1,7 +1,7 @@
 
 
-resource "google_storage_bucket" "gcs-new-bucket-v1" {
-  name     = "gcs-new-bucket-v1"
+resource "google_storage_bucket" "gcs-new-bucket-v1-22" {
+  name     = "gcs-new-bucket-v1-22"
   location = "EU"
   labels = {
   }
