@@ -19,9 +19,9 @@ resource "google_storage_bucket" "gcs-new-bucket-v2-sw" {
   name     = "gcs-new-bucket-v2-22"
   location = "EU"
   labels = {
-    git_commit           = "bdec45fdb3db9282fb8f27d16571d217158349aa"
+    git_commit           = "5d6a493f3210d7abeecef431ae14e56d33c85726"
     git_file             = "main_tf"
-    git_last_modified_at = "2022-05-09-10-16-48"
+    git_last_modified_at = "2022-05-13-13-29-31"
     git_last_modified_by = "swyatt"
     git_modifiers        = "swyatt"
     git_org              = "stu100wyatt"
