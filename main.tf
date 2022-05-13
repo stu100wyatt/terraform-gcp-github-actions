@@ -15,8 +15,7 @@ resource "google_storage_bucket" "gcs-new-bucket-v1-22" {
   }
   uniform_bucket_level_access = true
 }
-
-resource "google_storage_bucket" "gcs-new-bucket-v2" {
+resource "google_storage_bucket" "gcs-new-bucket-v2-sw" {
   name     = "gcs-new-bucket-v2-22"
   location = "EU"
   labels = {
