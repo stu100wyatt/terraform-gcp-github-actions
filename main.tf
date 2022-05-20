@@ -1,7 +1,7 @@
 
 
 resource "google_storage_bucket" "gcs-new-bucket-v1-22" {
-  name     = "gcs-new-bucket-v1-22"
+  name     = "gcs-new-bucket-v1-23"
   location = "EU"
   labels = {
     git_commit           = "919914fc0bcd296ff9bf2c65845300795f1b61d6"
